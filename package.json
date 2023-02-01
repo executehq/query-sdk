@@ -1,6 +1,6 @@
 {
   "name": "@execute-beta/query-sdk",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,7 +12,7 @@
   "author": "Execute",
   "license": "MIT",
   "dependencies": {
-    "node-fetch": "^2.6.7",
+    "node-fetch": "^2.6.7"
   },
   "devDependencies": {
     "typescript": "^4.5.2"
