@@ -52,7 +52,7 @@ class QueryClient {
     return (await response.json()) as any[];
   }
 
-  queryWithCallback(data: Query, callback: (data: any) => void) {
+  querySync(data: Query, callback: (data: any) => void) {
     this.query(data).then((res) => {
       callback(res);
     });
